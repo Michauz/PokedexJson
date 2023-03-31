@@ -1,0 +1,105 @@
+body{
+    background-color: #ececec;
+    font-family: sans-serif;
+}
+.allignMiddle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeTitle {
+    color: white;
+    background: #4472c4;
+    padding: 1px 0px 1px 20px;
+    display: flex;
+}
+.homeMenu {
+    border: 2px solid;
+    min-width: 60%;
+    background: white;
+}
+.homeContent {
+    text-align: center;
+    text-align: -webkit-center;
+}
+img.pokemonImg {
+    width: 40px;
+    height: 40px;
+}
+.tableHead {
+    background-color: #a5a5a5;
+    color: white;
+}
+.pokemonTableContent {
+    width: 250px;
+    text-align: left;
+}
+.pokemonTableContent tr{
+    height: 30px;
+}
+.tableBody {
+    background: #f0f0f0;
+}
+.tableBody td:first-child {
+    text-align: center;
+}
+.tableBody td:nth-child(2) {
+    padding-left: 5px;
+}
+.tableHead th:nth-child(2) {
+    padding-left: 5px;
+}
+.tableBody:nth-child(2n)  {
+    background: #e6e6e6;
+}
+.contentTitle {
+    text-align: left;
+    width: 50%;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.refreshBtn{
+    background-color: #4b92d1;
+    color: white;
+    margin: 10px;
+    width: 51%;;
+    padding: 5px 10px;
+    box-shadow: 2px 3px 2px 1px rgba(0, 0, 255, .2);
+    cursor: pointer;
+}
+.pokemonDetails{
+    text-align: center;
+    text-align: -webkit-center;
+}
+.backBtn {
+    cursor: pointer;
+    color: white;
+    background-color: #a6a6a6;
+    padding: 5px 20px;
+    margin-left: 50%;
+}
+.pokemonBigImg {
+    width: 100px;
+    height: 100px;
+}
+.singlePokemon {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.singlePokemonDetails {
+    margin-left: 20px;
+}
+.singlePokemonDetails div {
+    padding: 10px 0;
+}
+.baseDetails div {
+    padding-left: 20px;
+}
+.pokemonSingleDetail {
+    display: none;
+    padding: 30px 0;
+}
+.pokemonName{
+    cursor: pointer;
+}
